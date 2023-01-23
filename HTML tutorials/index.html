@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Steven Linfield">
+        <meta name="description" content="This page contains all the things I learn in HTML">
+        <title>My first web page</title>
+        <link rel="icon" href="html.png" type="image/x-icon">
+        
+        <style>html {
+            font-size: 22px;
+        }
+        
+        body {
+            background-color: #82cad8;
+            color: #c81717;
+        }
+        
+        a {
+            color:aqua;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover, a:active {
+            color: green;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#Ordered list">Ordered Lists</a>
+                </li>
+                <li>
+                    <a href="#Unordered list">Unordered Lists</a>
+                </li>
+                <li>
+                    <a href="#Descriptive list">Descriptive Lists</a>
+                </li>
+                <li>
+                    <a href="#Links">Links</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section id="Ordered list">
+        <p><strong>This is my first web page</strong></p>
+        <hr>
+        <h2>I am <em>learning</em> <abbr title="HyperText Markup Language">HTML</abbr></h2>
+        <p>This is some text I wrote</p>
+        <ol>
+            <li> And this also </li>
+            <li> This too </li>
+        </ol>
+        </section>
+        <hr>
+        <section id="Unordered list">
+        <h3>This is a sub sub topic</h3>
+        <ul>
+        <li><p>I am writing more &lt; text</p></li>
+        <li><p>it needs to be done after all</p>
+        
+        <!--Need to change address-->
+        <address>
+        12 Victoria Terrace<br>
+        Bath Road<br>  
+        Paulton<br>
+        BS39 7NY<br>
+        </address>
+        </li>
+        </ul>
+        </section>
+        <section id="Descriptive list">
+        <dl>
+            <dt>HTML</dt>
+            <dd>This makes the structure</dd>
+
+            <dt>CSS</dt>
+            <dd>This makes it pretty</dd>
+        </dl>
+        </section>
+        <section id="Links">
+        <a href="https://www.youtube.com">Click here to go to YouTube</a>
+        <a href="about.html">Click here to go to relative reference</a>
+        </section>
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+    </body>
+</html>
